@@ -1,0 +1,47 @@
+
+.card-search {
+  .v-row{
+    padding-top: 0px !important;
+  }
+  .v-col-md-12 .v-col-md-5 .v-col-12{
+    padding-top: 0px !important;
+    padding-bottom: 0px !important;
+  }
+  .v-card-text {
+    padding: 0 !important;
+  }
+  .v-field--variant-outlined, .v-field--single-line, .v-field--no-label {
+    --v-field-padding-top: 5px !important;
+  }
+  .title{
+    border-radius: 7px 7px 0px 0px;
+  }
+  .v-input--density-default {
+    --v-input-control-height:0px !important;
+    --v-input-padding-top: 5px !important;
+  }
+  .v-input__control {
+    display: inline;
+    grid-area: control;
+  }
+  .v-selection-control--density-default{
+    --v-selection-control-size: 30px !important;
+  }
+  .v-input__details {
+    min-height: 0px !important;
+    padding-top: 0px !important;
+  }
+  .v-messages {
+    min-height: 0px !important;
+  }
+  table.vgt-table td {
+    padding: 0.1em 0.75em 0em 0.75em !important;
+  }
+}
+
+.card-news{
+  .v-input--density-default {
+    --v-input-control-height:45px !important;
+    --v-input-padding-top: 10px !important;
+  }
+}

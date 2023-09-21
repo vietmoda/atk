@@ -1,0 +1,60 @@
+/**
+ * ==============================================
+ * Dot Collision
+ * ==============================================
+ */
+@use "sass:math";
+$dot-size: 16px;
+$dot-border-radius: math.div($dot-size,2);
+$dot-color: $color-primary;
+
+.dot-collision {
+  position: relative;
+  width:  $dot-size;
+  height:  $dot-size;
+  border-radius: $dot-border-radius;
+  background-color:  $dot-color;
+  color:  $dot-color;
+}
+.dot-collision::before, .dot-collision::after {
+  content: "";
+  display: inline-block;
+  position: absolute;
+  top: 0;
+}
+.dot-collision::before {
+  left: - $dot-size;
+  width:  $dot-size;
+  height:  $dot-size;
+  border-radius: $dot-border-radius;
+  background-color:  $dot-color;
+  color:  $dot-color;
+  animation: dot-collision-before 1s infinite ease-in;
+}
+.dot-collision::after {
+  left:  $dot-size;
+  width:  $dot-size;
+  height:  $dot-size;
+  border-radius: $dot-border-radius;
+  background-color:  $dot-color;
+  color:  $dot-color;
+  animation: dot-collision-after 1s infinite ease-in;
+  animation-delay: 1s;
+}
+
+@keyframes dot-collision-before {
+  0%, 50%, 75%, 100% {
+    transform: translateX(0);
+  }
+  25% {
+    transform: translateX(-25px);
+  }
+}
+@keyframes dot-collision-after {
+  0%, 50%, 75%, 100% {
+    transform: translateX(0);
+  }
+  25% {
+    transform: translateX(25px);
+  }
+}

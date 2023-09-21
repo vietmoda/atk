@@ -1,0 +1,132 @@
+[
+  {
+    "groupTitle": "",
+    "childrenMenu": [
+      {
+        "name": "Trang chủ",
+        "to": "/",
+        "icon": "mdi-home"
+      },
+      {
+        "name": "Dashboard",
+        "to": "/dashboard",
+        "icon": "mdi-view-dashboard"
+      },
+      {
+        "name": "Quản lý nhóm quyền",
+        "to": "/grouprole",
+        "icon": "mdi-shield-check"
+      },
+      {
+        "name": "Quản lý chuyên mục",
+        "to": "/newscategories",
+        "icon": "mdi-view-list"
+      },
+      {
+        "name": "Quản lý tham số hệ thống",
+        "to": "/systemconfigs",
+        "icon": "mdi-table-cog"
+      },
+      {
+        "name": "Quản lý loại danh mục",
+        "to": "/category",
+        "icon": "mdi-view-list"
+      },
+      {
+        "name": "Quản lý chi tiết danh mục",
+        "to": "/item",
+        "icon": "mdi-view-list"
+      },
+      {
+        "name": "Quản lý Video",
+        "to": "/videos",
+        "icon": "mdi-movie"
+      },
+      {
+        "name": "Quản lý Ảnh",
+        "to": "/images",
+        "icon": "mdi-image"
+      },
+      {
+        "name": "Quản lý kết nối",
+        "to": "/weblinks",
+        "icon": "mdi-link-box"
+      },
+      {
+        "name": "Quản lý tin bài",
+        "to": "/news",
+        "icon": "mdi-link-box"
+      },
+      {
+        "name": "Quản lý đặt lịch dâng hương",
+        "to": "/bookings",
+        "icon": "mdi-link-box"
+      },
+      {
+        "name": "Quản lý thực đơn",
+        "to": "/suggestedmenus",
+        "icon": "mdi-food-fork-drink"
+      },
+      {
+        "name": "Quản lý đặt bàn",
+        "to": "/ordermenus",
+        "icon": "mdi-nutrition"
+      },
+      {
+        "name": "Quản lý di tích lịch sử",
+        "to": "/historicalsites",
+        "icon": "mdi-view-list"
+      },
+      {
+        "name": "Quản lý lễ hội",
+        "to": "/festivals",
+        "icon": "mdi-view-list"
+      },
+      {
+        "name": "Quản lý hiện vật",
+        "to": "/artifacts",
+        "icon": "mdi-view-list"
+      },
+      {
+        "name": "Quản lý dịch vụ",
+        "to": "/services",
+        "icon": "mdi-view-list"
+      },
+      {
+        "name": "Quản lý báo cáo",
+        "to": "/report",
+        "icon": "mdi-view-list"
+      },
+      {
+        "name": "Tra cứu log",
+        "to": "/logcommand",
+        "icon": "mdi-view-list"
+      },
+      {
+        "name": "khôi phục dữ liệu",
+        "to": "/restore",
+        "icon": "mdi-view-list"
+      }
+    ]
+  },
+  {
+    "groupTitle": "TÀI KHOẢN",
+    "childrenMenu": [
+      {
+        "name": "Danh sách tài khoản hệ thống",
+        "to": "/users",
+        "icon": "mdi-account-search"
+      },
+      {
+        "name": "Danh sách tài khoản người dùng",
+        "to": "/clientusers",
+        "icon": "mdi-account-search"
+      },
+      {
+        "name": "Tài khoản chờ duyệt",
+        "to": "/pending-accounts",
+        "icon": "mdi-account-check"
+      }
+    ]
+  }
+]
